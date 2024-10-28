@@ -1,0 +1,141 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+}
+body {
+    margin: 0;
+    background-color: #f3f2f2;
+    overflow-x: hidden;
+}
+
+
+/* ***********Navbar****************** */
+
+.topbar ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: rgba(228, 220, 220, 0.664);
+}
+
+.navbar-brand {
+    color: black;
+}
+
+.nav-item a {
+    color: white;
+    font-size: 20px;
+}
+
+
+/* ***************Carousel page accueil********************** */
+
+.carousel-item img {
+    height: 33rem;
+}
+
+.carousel-caption {
+    margin-bottom: 200px;
+    background-color: rgba(29, 28, 28, 0.514);
+}
+
+
+/* **********section about us************ */
+
+.myrestau img {
+    position: relative;
+    z-index: 0;
+    height: 40rem;
+}
+
+.welcome {
+    background-color: rgb(214, 114, 43);
+    margin-top: 130px;
+    position: absolute;
+    z-index: 1;
+    margin-right: 550px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+/* **********section our offer****************** */
+
+.offer img {
+    height: 23rem;
+}
+
+.card-img-overlay h3 {
+    background-color: rgba(255, 255, 0, 0.267);
+}
+
+.card-img-overlay {
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.card-img-overlay:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.card-text {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: block;
+    margin-top: 12rem;
+    background-color: rgba(56, 54, 54, 0.664);
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+
+/************************ section services**************************** */
+
+.service {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../imgs/Services.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.service h4{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* ***********************Testmonials************************************ */
+
+/* **************************************************Page Aout Us*************************************************** */
+.about{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imgs/spagetti.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 25rem;
+}
+.about h1 {
+    text-align: center;
+    color: white;
+}
+.about p{
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.parag p{
+
+    line-height: 33px;
+}
+.galery{
+    background-color: #fff;
+}
+
+.chef img{
+    height: 15rem;
+}
